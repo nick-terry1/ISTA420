@@ -1,0 +1,24 @@
+sql lab 2a
+
+
+1. select regiondescription from region;
+
+2. select territorydescription from territories;
+
+3. select territorydescription, regionid from territories where regionid = 4;
+
+4. select territories.territorydescription, territories.regionid from territories where regionid = 4;
+
+5. select t.territorydescription, t.regionid from territories t where regionid = 4;
+
+6. select t.territorydescription, t.regionid from territories t where regionid = 4;
+
+7. select productid, productname, unitsinstock from products where unitsinstock = 0;
+
+8. select productid, productname, unitsinstock from products where unitsinstock > 0 order by unitsinstock limit 5;
+
+9. select productid, productname, unitprice from products order by unitprice desc limit 5;
+
+10. select count(*) from products;
+select count(*) from customers;
+select count(*) from suppliers;
