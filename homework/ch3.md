@@ -15,11 +15,12 @@
 5. I would guess that the mnemonic ohio means that the outer rows will be appended to the ends of the joint table and the inner row will be sandwiched in the middle.
 
 6. An example of a composite join is:  
+select t1.header, t1.headerTwo, t2.anotherHeader, t2.secondHeader  
 from sample.table1 as t1  
 inner join sample.table2 as t2  
 on t1.header = t2.anotherHeader  
 and t1.headerTwo = t2.secondHeader
  
-7. The first example finds the total number of customers which is pointless to then join tables because the customers table is preserved - its the same as just SELECT COUNT(custid) FROM Sales.Customers; The second example counts orders on the the nonpreserved table so only orders with a custid are counted.
+7. The first example finds the total number of customers which is pointless to then join tables because the customers table is preserved - its the same as just SELECT COUNT(custid) FROM Sales.Customers; The second example counts orders on the the nonpreserved table so only orders with a custid and not a NULL value are counted.
  
 8. There wouldnt be any custid column if there were no sales after 2016.
