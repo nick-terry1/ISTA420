@@ -1,4 +1,9 @@
-SQL HOMEWORK 2B
+### SQL HOMEWORK 2B
+#### author: nick terry
+#### date: feb 28, 2018
+
+
+
 
 1. The order of execution of a query is FROM, WHERE, GROUP BY, HAVING,
 SELECT, and ORDER BY

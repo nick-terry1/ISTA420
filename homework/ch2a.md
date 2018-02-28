@@ -1,5 +1,8 @@
-sql Homework
-ch2a
+### sql Homework ch2a
+#### author: nick terry
+#### date: feb 28, 2018
+
+
 
 1. Primary key constraint is a unique attribute and not NULL. Its equivolent to a unique constraint and a forein key constraint.
 

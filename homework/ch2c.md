@@ -1,4 +1,9 @@
-SQL Homework 2c
+### SQL Homework 2c
+#### author: nick terry
+#### date: feb 28, 2018
+
+
+
 
 1. Data types designate entries as strings, integers, or whatever type of data the spot in memory will hold. We have data types to avoid confusion on the computers part and for processing speed.
 

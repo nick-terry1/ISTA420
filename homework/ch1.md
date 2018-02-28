@@ -1,5 +1,6 @@
-sql homework 
-ch1
+### sql homework ch1
+#### author: nick terry
+#### date: feb 28, 2018
 
 1. Database is the pool of information that using sql is managed and called and organized as the categories relate to each other. IOW a program.
 2. Human resources database is a pool of people and their information, or an actual collection of data.
