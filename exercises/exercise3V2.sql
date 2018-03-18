@@ -2,10 +2,10 @@
 -- author: nick terry
 -- date: mar 8, 2018
 
-.headers on;
+.headers on
 
 select od1.orderid, od1.productid, od1.unitprice, od1.quantity, 
 (od1.unitprice * od1.quantity) as itemprice, 
-(count(od2.orderid)/(select sum(od2.quantity)*100 from order_details od2 
-where od2.orderid = od1.orderid) as percen
-from order_details as od1;
+(select (od1.unitprice * od1.quantity)/(sum(od2.unitprice * od2.quantity))*100 as percent 
+from order_details od2 where od2.orderid = od1.orderid) as percent
+from order_details od1 limit 10;
